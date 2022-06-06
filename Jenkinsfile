@@ -16,6 +16,16 @@ pipeline {
             steps {
                 echo 'Run'
             }
+         }
+             stage('Test report using jecoco') {
+            steps {
+                echo 'jecoco'
+            }
+        }
+             stage('Building docker image') {
+            steps {
+                echo 'image'
+            }
         }
     }
 }
