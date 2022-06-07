@@ -10,15 +10,7 @@ agent any
 
 stages {
 
-stage('Checkout') {
 
-steps {
-
-git 'https://github.com/sachinphutane/OlxUserMicroservice.git'
-
-}
-
-}
 
 stage('Compile') {
 
